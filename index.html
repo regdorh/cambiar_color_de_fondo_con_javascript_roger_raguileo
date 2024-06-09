@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/icon.png" />
+    <title>Cambiando colores con Javascript</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Escoge un gradiente de color para la figura</h1>   
+
+    <div class="container">
+        <input type="button" value="Forest" id="btnforest" onclick="changeColorBtn1()">
+        <input type="button" value="Endless River" id="btnendlessriver" onclick="changeColorBtn2()">
+        <input type="button" value="Broken Hearts" id="btnbrokenhearts" onclick="changeColorBtn3()">
+        <input type="button" value="Love and Liberty" id="btnloveandliberty" onclick="changeColorBtn4()">
+        <input type="button" value="Default" id="btndefault" onclick="changeColorBtn5()">
+
+        <div class="box">
+            <span style="--i:1;"></span>
+            <span style="--i:2;"></span>
+            <span style="--i:3;"></span>
+            <span style="--i:4;"></span>
+            <span style="--i:5;"></span>
+            <span style="--i:6;"></span>
+            
+        </div>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
